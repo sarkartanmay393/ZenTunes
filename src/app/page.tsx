@@ -1,11 +1,10 @@
-'use client'
 
 import { useRouter } from "next/navigation"
 
 export default function Home() {
-  const router = useRouter();
-  router.push('/play');
+  // const router = useRouter();
+  // router.push('/play');
   return (
-    <div></div>
+    <a href="/play"></a>
   )
 }

@@ -62,8 +62,7 @@ const AudioCard = ({ theme, audioPath, itemid }: AudioCardProps) => {
     waveSurfer?.playPause();
   }
 
-  const handleSeekBackward = () => {
-  }
+  const handleSeekBackward = () => {}
 
   return (
     <Card
